@@ -1,0 +1,12 @@
+@media (max-width: 768px){
+    .testimonial{
+        grid-template-columns: 1fr;
+    }
+    .section-title{
+        font-size: 28px;
+    }
+    .testimonial-part{
+        margin-top: 0px;
+        border-radius: 0;
+    }
+}
