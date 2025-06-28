@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        max-width: 90%;
+    }
+
+    .testimonials h1 {
+        font-size: 28px;
+    }
+}
