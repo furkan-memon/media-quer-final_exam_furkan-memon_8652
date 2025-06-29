@@ -29,7 +29,7 @@
     display: none;
     /* transition: .4s ease-in-out; */
 }
-.nav-links a {
+.nav-links li a {
     display: block;
     color: #FAE3C6;
     text-decoration: none;
@@ -39,14 +39,23 @@
     transition: .4s ease-in-out;
     z-index: 3;
 }
+.dropdown-menu li a{
+    border-radius: 0;
+}
 .nav-links a:hover {
     /* display: flex; */
     /* transition: .4s ease-in; */
     /* border: 3px solid #533B4D; */
     /* padding: 0; */
+    /* border-radius: 25px; */
+    
     background-color: #FAE3C6;
     color: #533B4D;
      
+}
+
+.nav-links .dropdown-manu a:hover{
+    border-radius: 0;
 }
 .nav-links a:hover .do{
     display: none;
